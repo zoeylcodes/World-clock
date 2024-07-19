@@ -1,11 +1,45 @@
 body {
-    background-image: url('Images/world.jpg');
+    background-image: url('Images/wp4523639-zone-wallpapers.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
- 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-
-h1{text-align: center;}
-footer{text-align: center;}
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+h1 {
+    margin-bottom: 20px;
+}
+select {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.city {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.city h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.date, .time {
+    font-size: 1em;
+    color: #333;
+}
