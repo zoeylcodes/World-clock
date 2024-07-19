@@ -1,7 +1,12 @@
 body {
-    background-image: url('/Images/world.jpg');
+    background-image: url('Images/world.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
 }
 footer{text-align: center;}
