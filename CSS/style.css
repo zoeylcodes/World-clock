@@ -116,6 +116,7 @@ small{margin: 5px;}
     .container {
         margin-top: 10%;
         max-width: 85%;
+        padding: auto;
     }
 
     .city {
