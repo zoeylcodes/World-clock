@@ -1,7 +1,6 @@
-
-
 body {
-    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/590/original/cute-strawberry-pattern-pastel-background_53876-114637.jpg?1721534838');
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/591/original/wp4523639-zone-wallpapers.jpg?1721536444');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -87,9 +86,9 @@ select {
 .date {
     opacity: 0.5;
     text-align: center;
-    margin-left: 2px;
-
-    
+    margin: 5px 0; 
+    padding: 5px 0;
+    font-size: 14px;
 }
 
 .time small {
